@@ -22,7 +22,9 @@ Furthermore, the following packages and libraries are used in the project
 - Numpy
 - PyTorch
 - Sympy
-- Imutils
+- SKLearn
+- Torch_Geometric
+- Folium
 - Matplotlib
 
 ## Usage
