@@ -5,13 +5,13 @@ This project is part of a [Master's thesis](https://drive.google.com/file/d/1vEm
 
 
 ## Contents
-The model has been trained on 392 charging stations, w
-There are three different implementations of the hybrid model: 1) Using  using . 2) . 3)
+The dataset consists of time series data from 392 charging stations, where the model has been tested on three out of the 392 charging stations. There are three different implementations of the hybrid model, which differ in their training strategy: 1) Using the original time series data for all 392 charging stations. 2) Replacing the time series data from the three test charging stations with zeroes (Used to mimic placing a charging station without historical data. 3) Using synthetic data for the three test charging stations based on time series data from surrounding charging stations. 
 
-There are three folders: 
-- Embeddings: This folder contains the node embeddings Folder containing the embeddings from the One containing the CNN model without KD (project.ipynb) and one implementing the KD network (project_optimized.ipynb) 
-- Data: for evaluating the calculator 
-- Source: Pretrained models of the teacher, student and KD student 
+The repository consists of the following three folders:
+- Embeddings: This folder contains the node embeddings from the GNN model and the index mapping connecting the node embeddings to the correct charging station
+- Models: Pre-trained models  
+- Source: Source code for the GNN model and the three variations of the hybrid model. Additionally, the source code for creating synthetic data is also included.
+
 
 ## Prerequisites
 - Python 3.7 or higher
@@ -28,7 +28,7 @@ Furthermore, the following packages and libraries are used in the project
 - Matplotlib
 
 ## Usage
-1. If you want to train new models, run the project_optimized.ipynb from the start.
-2. If you want to evaluate the pretrained models (or newly trained models), run the cells from the "Testing" section. 
+1. 
+2. 
 
 
