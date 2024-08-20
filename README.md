@@ -28,7 +28,13 @@ Furthermore, the following packages and libraries are used in the project
 - Matplotlib
 
 ## Usage
+Get data
 1. 
 2. 
+
+Train model 
+
+
+Test model 
 
 
